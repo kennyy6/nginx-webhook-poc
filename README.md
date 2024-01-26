@@ -5,6 +5,7 @@ Nginx Reverse proxy websocket poc
 Default settings to try and use
 
 
+```
 server {
     listen 80;
 
@@ -19,3 +20,4 @@ server {
         proxy_cache_bypass $http_upgrade;
     }
 }
+```
